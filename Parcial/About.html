@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>About</h1>
+
+        <!-- Menú desplegable con Misión, Visión y Equipo de Trabajo -->
+        <div class="dropdown">
+            <button class="dropbtn">Menú</button>
+            <div class="dropdown-content">
+                <a href="#">Misión</a>
+                <a href="#">Visión</a>
+                <a href="#">Equipo de Trabajo</a>
+            </div>
+        </div>
+
+        <!-- Contenido dinámico que cambiará según el elemento seleccionado del menú -->
+        <div id="content">
+            <p>Contenido de la página de About</p>
+        </div>
+
+        <!-- Texto adicional y botones para cambiar el tamaño y color del texto -->
+        <div id="text-container">
+            <p>Texto adicional aquí.</p>
+            <div id="button-container">
+                <button onclick="changeFontSize()">Cambiar tamaño de letra</button>
+                <button onclick="changeTextColor()">Cambiar color de la letra</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
